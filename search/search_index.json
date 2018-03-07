@@ -1,0 +1,29 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Grafonnet provides an easy and maintainable way of writing\n\ngrafana\n dashboards. Instead of generating JSON files and\nmaintaining them, you can easily create your own dashboards using the many\nhelpers grafonnet-lib offers you, thanks to the data templating language\n\njsonnet\n.\n\n\nGrafana dashboard\n\n\nGrafana\n is using JSON as format for the dashboards. While\nthis choice makes sense from a technical point of view, people who want to keep\nthose dashboards under version control end up putting large, independent JSON\nfiles under source control.\n\n\nWhen doing so, it is hard to maintain the same links, templates, or even\nannotation between graphes. It usually requires a lot of custom tooling to\nchange and keep those Json files aligned. There are alternatives, like\n\ngrafanalib\n, that makes thing easier.\nHowever, as Grafonnet is using \njsonnet\n, a superset of\nJson, it gives you out of the box a very easy way to use any feature of grafana\nthat would not be covered by Grafonnet already.\n\n\nScope\n\n\nGrafonnet aims at supporting any basic feature of dashboards (annotations,\ntemplates, rows, panels...) as well as a number of datasources and plugins.\n\n\nCode of Conduct\n\n\nGrafonnet is developed withing the Grafana community. Therefore we are following\nthe same \nCode of Conduct as Grafana\n. You need to agree and follow the\ncode of conduct when you contribute to Grafonnet.\n\n\nLicense\n\n\nWe use the same \nlicense\n as \nGrafana\n (ASL 2.0).", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#grafana-dashboard", 
+            "text": "Grafana  is using JSON as format for the dashboards. While\nthis choice makes sense from a technical point of view, people who want to keep\nthose dashboards under version control end up putting large, independent JSON\nfiles under source control.  When doing so, it is hard to maintain the same links, templates, or even\nannotation between graphes. It usually requires a lot of custom tooling to\nchange and keep those Json files aligned. There are alternatives, like grafanalib , that makes thing easier.\nHowever, as Grafonnet is using  jsonnet , a superset of\nJson, it gives you out of the box a very easy way to use any feature of grafana\nthat would not be covered by Grafonnet already.", 
+            "title": "Grafana dashboard"
+        }, 
+        {
+            "location": "/#scope", 
+            "text": "Grafonnet aims at supporting any basic feature of dashboards (annotations,\ntemplates, rows, panels...) as well as a number of datasources and plugins.", 
+            "title": "Scope"
+        }, 
+        {
+            "location": "/#code-of-conduct", 
+            "text": "Grafonnet is developed withing the Grafana community. Therefore we are following\nthe same  Code of Conduct as Grafana . You need to agree and follow the\ncode of conduct when you contribute to Grafonnet.", 
+            "title": "Code of Conduct"
+        }, 
+        {
+            "location": "/#license", 
+            "text": "We use the same  license  as  Grafana  (ASL 2.0).", 
+            "title": "License"
+        }
+    ]
+}
